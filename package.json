@@ -32,6 +32,10 @@
       {
         "command": "vscode-extra-commands.saveAllWithoutFormat",
         "title": "File: Save All Without Format"
+      },
+      {
+        "command": "vscode-extra-commands.createAndOpenFolder",
+        "title": "File: Create and Open New Folder"
       }
     ]
   },
