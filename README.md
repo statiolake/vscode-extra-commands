@@ -1,5 +1,8 @@
 # Extra Commands
 
+> **⚠️ This project has been moved to [vscode-extended-actions](https://github.com/statiolake/vscode-extended-actions)**
+> Please use the new repository for the latest updates and future development.
+
 Additional useful commands for VS Code.
 
 ## Features
