@@ -1,0 +1,54 @@
+{
+  "name": "vscode-extra-commands",
+  "displayName": "Extra Commands (statiolake)",
+  "description": "Additional useful commands for VS Code",
+  "version": "0.0.1",
+  "publisher": "statiolake",
+  "author": "statiolake",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.104.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "save",
+    "format",
+    "commands"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/statiolake/vscode-extra-commands"
+  },
+  "bugs": {
+    "url": "https://github.com/statiolake/vscode-extra-commands/issues"
+  },
+  "homepage": "https://github.com/statiolake/vscode-extra-commands#readme",
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "vscode-extra-commands.saveAllWithoutFormat",
+        "title": "File: Save All Without Format"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "lint": "eslint src",
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.104.0",
+    "@types/node": "22.x",
+    "@typescript-eslint/eslint-plugin": "^8.45.0",
+    "@typescript-eslint/parser": "^8.45.0",
+    "eslint": "^9.36.0",
+    "typescript": "^5.9.3"
+  }
+}
